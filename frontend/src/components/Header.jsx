@@ -1,14 +1,17 @@
 // import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "../assets/BC-favicon.jpg";
 
 const Header = () => {
   return (
     <header>
       <Navbar bg="dark" expand="md" variant="dark" collapseOnSelect>
         <Container>
-          <Navbar.Brand href="/">Golf Proshop</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src={logo} width="30" height="30" alt="" loading="lazy" />
+            Golf Proshop
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

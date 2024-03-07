@@ -4,7 +4,7 @@ const products = [
     name: "Chrome Tour",
     image: "/images/balls-2024-chrome-tour_2___2.webp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      " From cover to core, Chrome Tour is the new gold standard Tour ball for better players who want the best in distance and feel. Every detail has been optimized including a new core, inner mantle, outer mantle, and cover formulation. Chrome Tour is engineered for outstanding performance with exceptional speed, consistent flight, incredible spin, and greenside control.",
     brand: "Golf Proshop",
     category: "Golf",
     price: 100,
@@ -17,7 +17,7 @@ const products = [
     name: "Chrome Tour Triple Track",
     image: "/images/balls-2024-chrome-tour-triple-track-b3g1_2___2.webp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "We’ve engineered Chrome Tour X to provide outstanding distance, workability, and spin so you can experience your best performance from tee-to-green along with alignment-enhancing Triple Track Technology.",
     brand: "Golf Proshop",
     category: "Golf",
     price: 100,
@@ -30,7 +30,7 @@ const products = [
     name: "Chrome Tour Triple Track 360",
     image: "/images/balls-2024-chrome-tour-360-triple-track_2___2.webp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "We’ve engineered Chrome Tour X to provide outstanding distance, workability, and spin so you can experience your best performance from tee-to-green along with alignment-enhancing 360 Triple Track Technology.",
     brand: "Golf Proshop",
     category: "Golf",
     price: 100,
@@ -56,7 +56,7 @@ const products = [
     name: "Chrome Tour Yellow",
     image: "/images/balls-2024-chrome-tour-yellow_1446___2.webp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chrome Tour is engineered for outstanding performance with exceptional speed, consistent flight, incredible spin, and greenside control in a hi-vis Yellow ball.",
     brand: "Golf Proshop",
     category: "Golf",
     price: 100,
@@ -69,7 +69,7 @@ const products = [
     name: "Chrome Tour Triple Track Yellow",
     image: "/images/balls-2024-chrome-tour-triple-track-yellow_1446___2.webp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chrome Tour is engineered for outstanding performance with exceptional speed, consistent flight, incredible spin, and greenside control. And this hi-vis Yellow ball features alignment-enhancing Triple Track Technology.",
     brand: "Golf Proshop",
     category: "Golf",
     price: 100,

@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Chrome Tour",
     image: "/images/balls-2024-chrome-tour_2___2.webp",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 16,
   },
   {
-    _id: "2",
     name: "Chrome Tour Triple Track",
     image: "/images/balls-2024-chrome-tour-triple-track-b3g1_2___2.webp",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 20,
   },
   {
-    _id: "3",
     name: "Chrome Tour Triple Track 360",
     image: "/images/balls-2024-chrome-tour-360-triple-track_2___2.webp",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "4",
     name: "Chrome Tour True Track",
     image: "/images/balls-2024-chrome-tour-trutrack_6224___2.webp",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: "5",
     name: "Chrome Tour Yellow",
     image: "/images/balls-2024-chrome-tour-yellow_1446___2.webp",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: "6",
     name: "Chrome Tour Triple Track Yellow",
     image: "/images/balls-2024-chrome-tour-triple-track-yellow_1446___2.webp",
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "7",
     name: "Chrome Tour Triple Track 360 Yellow",
     image: "/images/balls-2024-chrome-tour-360-triple-track_1446___2.png",
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "8",
     name: "Chrome Tour True Track Yellow",
     image: "/images/balls-2024-chrome-tour-trutrack-yellow_1446___2.webp",
     description:

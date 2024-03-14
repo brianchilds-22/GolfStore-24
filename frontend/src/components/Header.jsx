@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
   console.log(cartItems);
+
   return (
     <header>
       <Navbar bg="dark" expand="md" variant="dark" collapseOnSelect>
@@ -25,11 +26,7 @@ const Header = () => {
                 <Nav.Link>
                   <FaShoppingCart /> Cart
                   {cartItems.length > 0 && (
-                    <Badge
-                      pill
-                      bg="success"
-                      style={{ marginLeft: "10px", padding: "8px" }}
-                    >
+                    <Badge pill bg="success" style={{ marginLeft: "5px" }}>
                       {cartItems.reduce((a, c) => a + c.qty, 0)}
                     </Badge>
                   )}

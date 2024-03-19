@@ -53,8 +53,9 @@ const PlaceOrderScreen = () => {
             <ListGroup.Item>
               <h2>Shipping</h2>
               <p>
-                <strong>Address:</strong> {cart.shippingAddress.address},{" "}
-                {cart.shippingAddress.city}, {cart.shippingAddress.postalCode},{" "}
+                <strong>Address:</strong>
+                {cart.shippingAddress.address}, {cart.shippingAddress.city},{" "}
+                {cart.shippingAddress.postalCode},{" "}
                 {cart.shippingAddress.country},{" "}
               </p>
             </ListGroup.Item>
@@ -62,6 +63,7 @@ const PlaceOrderScreen = () => {
               <h2>Payment Method</h2>
               <strong>Method:</strong> {cart.paymentMethod}
             </ListGroup.Item>
+
             <ListGroup.Item>
               <h2>Order Items</h2>
               {cart.cartItems.length === 0 ? (

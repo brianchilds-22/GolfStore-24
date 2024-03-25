@@ -25,10 +25,6 @@ const OrderScreen = () => {
   ) : (
     <>
       <h1>Order {order._id}</h1>
-      <Row>
-        <Col md={8}>Column</Col>
-        <Col md={4}>Column</Col>
-      </Row>
     </>
   );
 };

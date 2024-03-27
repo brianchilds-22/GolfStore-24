@@ -98,6 +98,8 @@ const OrderScreen = () => {
       });
   }
 
+  // console.log(order);
+
   return isLoading ? (
     <Loader />
   ) : error ? (
@@ -135,7 +137,7 @@ const OrderScreen = () => {
                 <strong>Method: </strong> {order.paymentMethod}
               </p>
               {order.isPaid ? (
-                <Message variant="success">Paid on {order.paidAt}</Message>
+                <Message variant="success">Paid on {order.updatedAt}</Message>
               ) : (
                 <Message variant="danger">Not Paid</Message>
               )}

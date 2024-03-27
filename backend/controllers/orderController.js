@@ -97,7 +97,7 @@ const updateOrderToPaid = asyncHandler(async (req, res) => {
 // @route PUT /api/orders/:id/deliver
 // @access Private/Admin
 
-const UpdateOrderToDelivered = asyncHandler(async (req, res) => {
+const updateOrderToDelivered = asyncHandler(async (req, res) => {
   res.send("update order to delivered");
 });
 
@@ -114,6 +114,6 @@ export {
   getMyOrders,
   getOrderById,
   updateOrderToPaid,
-  UpdateOrderToDelivered,
+  updateOrderToDelivered,
   getOrders,
 };

@@ -2,7 +2,7 @@
 
 > eCommerce platform built with the MERN stack and Redux.
 
-This projet is a full featured shopping cart with PayPal & credt/debit payments.
+This project is a full featured shopping cart with PayPal & credt/debit payments.
 
 ## Features include
 - Full featured shopping cart

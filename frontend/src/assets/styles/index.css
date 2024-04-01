@@ -34,7 +34,7 @@ table th {
 
 .review h2 {
   font-size: 24px;
-  background: #f4f4f4;
+  background: #dfe9da;
   padding: 10px;
   border: 1px solid #ddd;
 }
@@ -50,4 +50,58 @@ table th {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation styling */
+.navbar {
+  background-color: #38761d !important;
+}
+
+.btn-light {
+  background-color: #afc8a4;
+
+  &:hover {
+    background-color: #dfe9da;
+    border: 1px solid #dfe9da;
+  }
+}
+
+.btn-primary {
+  background-color: #38761d !important;
+
+  &:hover {
+    background-color: #5f914a !important;
+    border: 1px solid #5f914a !important;
+  }
+}
+
+.card {
+  border-color: #38761d;
+}
+
+h1,
+h2,
+h3,
+a,
+strong,
+.list-group-item,
+.form-label,
+.form-control {
+  color: #38761d;
+}
+
+.form-check-input:checked {
+  background-color: #38761d;
+  border-color: #38761d;
+}
+
+.active > .page-link {
+  background-color: #38761d;
+}
+
+.alert-info,
+.alert-success {
+  background-color: #dfe9da;
+  border-color: #dfe9da;
+  color: #38761d;
 }

@@ -34,7 +34,15 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={logo} width="30" height="30" alt="" loading="lazy" />
+              <img
+                src={logo}
+                width="30"
+                height="30"
+                style={{ marginRight: "25px" }}
+                // className="px-1"
+                alt=""
+                loading="lazy"
+              />
               Golf Proshop
             </Navbar.Brand>
           </LinkContainer>

@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Product from "../components/Product";
 import Loader from "../components/Loader";
 import { useGetProductsQuery } from "../slices/productsApiSlice";
@@ -16,6 +17,11 @@ const HomeScreen = () => {
 
   return (
     <>
+      {keyword && (
+        <Link to="/" className="btn btn-light my-3">
+          Go Back
+        </Link>
+      )}
       {isLoading ? (
         <Loader />
       ) : error ? (
@@ -24,7 +30,7 @@ const HomeScreen = () => {
         </Message>
       ) : (
         <>
-          <h1>Welcome to the Proshop</h1>
+          <h1>Welcome to the Golf Proshop</h1>
           <Row>
             {data.products.map((product) => (
               <Col sm={12} md={6} lg={4} xl={3} key={product._id}>

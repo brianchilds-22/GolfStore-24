@@ -99,6 +99,15 @@ strong,
   background-color: #38761d;
 }
 
+.dropdown-item {
+  &.active {
+    background-color: #38761d;
+    color: white;
+  }
+  &:hover {
+    background-color: #dfe9da;
+  }
+}
 .alert-info,
 .alert-success {
   background-color: #dfe9da;

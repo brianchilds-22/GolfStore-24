@@ -33,7 +33,7 @@ const ProductEditScreen = () => {
   const [updateProduct, { isLoading: loadingUpdate }] =
     useUpdateProductMutation();
 
-  const [uploadProductImage, { isLoading: loadingImageUpload }] =
+  const [uploadProductImage, { isLoading: loadingUpload }] =
     useUploadProductImageMutation();
 
   const navigate = useNavigate();
@@ -130,6 +130,7 @@ const ProductEditScreen = () => {
                 label="Choose file"
                 onChange={uploadFileHandler}
               ></Form.Control>
+              {loadingUpload && <Loader />}
             </Form.Group>
 
             <Form.Group controlId="brand" className="my-2">

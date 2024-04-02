@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89554749.css",
+    "main.js": "/static/js/main.d54528fd.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/BC-favicon.jpg": "/static/media/BC-favicon.15e13a61fa211030ef0e.jpg",
+    "index.html": "/index.html",
+    "main.89554749.css.map": "/static/css/main.89554749.css.map",
+    "main.d54528fd.js.map": "/static/js/main.d54528fd.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89554749.css",
+    "static/js/main.d54528fd.js"
+  ]
+}
